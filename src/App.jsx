@@ -1,33 +1,46 @@
-import { useEffect, useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import MovieForm from './components/MovieForm/MovieForm'
+import { useState, useEffect } from 'react'
+import MovieForm from './componentes/MovieForm/MovieForm'
+import MovieList from './componentes/MovieList/MovieList'
 import './App.css'
+
+const url ="http://localhost:3001/movie";
+
 
 function App() {
   const [movies, setMovies] = useState([])
 
-  useEffect(() => {
-    async function getMovies() {
-      const response = await fetch("http://localhost:3001/movies")
-      const data = await response.json()
+  useEffect(()=> {
+    async function getMovies(){
+      const response = await fetch(url);
+      const data = await response.json(); 
 
-      console.log(data)
-
-      setMovies(data)
+      console.log(data);
+      setMovies(data);
     }
-    getMovies()
-  }, []);
+    getMovies();
+  },[]);
+
+
+  const createMovies = async (movie) =>{
+    const response = await fetch(url, {
+      method: "POST",
+      headers: {"Content-Type": "application/json"},
+      body: JSON.stringify(movie),
+    });
+
+    const addedMovie = await response.json();
+    setMovies((prevMovies) => [...prevMovies, addedMovie]);
+  };
+
 
   return (
-    <><div>
-      <h1>Lista de Filmes</h1>
-      <ul>
-        {movies.map(movie => (
-          <li key={movie.id}>Titulo: {movie.title} <br /> Ano: {movie.year} <br /> Diretor: {movie.director} <br /> Gênero: {movie.genre} <br /> Nota: {movie.rating} <br /> Sinopse: {movie.synopsis} <br /> Capa: <img src={movie.cover} alt={movie.title} /></li>
-        ))}
-      </ul>
-    </div><MovieForm handleSubmit={(newMovie) => setMovies((prevMovies) => [...prevMovies, newMovie])} /></>
+    <div className='App'>
+      <h1>Catálogo de Filmes</h1>
+      <MovieForm handleSubmit={createMovies}/>
+      <MovieList movies={movies}/>
+    </div>
+
   )
 }
+
 export default App

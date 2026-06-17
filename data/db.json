@@ -1,15 +1,41 @@
 {
-
-    "movies": [
-        {
-            "title": "Irmão Urso",
-            "director": "Aaron Blaise, Robert Walker",
-            "year": 2003,
-            "genre": "Animação, Aventura",
-            "rating": 7.2,
-            "synopsis": "Um jovem índio americano chamado Kenai é transformado em um urso e deve aprender a ver o mundo de uma nova perspectiva.",
-            "cover": "./src/assets/irmaourso.jpg"
-        }
-    ]
-
+  "movie": [
+    {
+      "id": "1",
+      "title": "Irmão Urso",
+      "category": "Animação",
+      "year": "2003",
+      "note": "5",
+      "image": "https://tse2.mm.bing.net/th/id/OIP.C7tB_oywmYDfQc_5gQtyUwHaLG?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "synopsis": "Irmão Urso é um filme de animação da Disney lançado em 2003, que conta a história de um menino transformado em urso em uma jornada épica de amizade e autodescoberta."
+    },
+    {
+      "title": "Crepúsculo",
+      "category": "Drama",
+      "year": "2008",
+      "note": "3",
+      "image": "https://tse1.mm.bing.net/th/id/OIP.DbFvAWD4ZlQvlkvkQFkqlAHaKk?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "synopsis": "Crepúsculo (2008) apresenta Bella Swan, uma adolescente que se muda para a chuvosa Forks e conhece Edward Cullen, um misterioso colega de escola que esconde um segredo sobrenatural. O romance entre eles desafia mundos distintos e traz riscos inesperados. Misturando fantasia, drama e romance juvenil, o filme conquistou legiões de fãs e marcou a cultura pop, mas divide opiniões pela atuação e fidelidade ao livro. Ideal para quem gosta de histórias de amor com elementos fantásticos.",
+      "id": "GJrOUknwROg"
+    },
+    {
+      "title": "Friday the 13th - 1984",
+      "category": "Horror",
+      "year": "1984",
+      "note": "3.6",
+      "image": "https://br.web.img3.acsta.net/c_310_420/medias/nmedia/18/87/85/44/19962226.jpg",
+      "synopsis": "Os moradores dos arredores de Crystal Lake descobrem que Jason pode ainda estar vivo, quando nova série de violentos assassinatos começa a ocorrer.",
+      "id": "GTDGre_3GHY"
+    },
+    {
+      "title": "Ataque Brutal",
+      "category": "Suspense/Terror",
+      "year": "2026",
+      "note": "2.5",
+      "image": "https://br.web.img3.acsta.net/r_1920_1080/img/fd/78/fd789d6ba2c2dd26c084a2625385ecf9.jpg",
+      "synopsis": "Após um furacão catastrófico, os moradores de uma cidade lutam para sobreviver ao avanço das águas infestadas de tubarões vorazes.",
+      "id": "XxE9imoWGOg"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
