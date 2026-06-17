@@ -1,0 +1,15 @@
+{
+
+    "movies": [
+        {
+            "title": "Irmão Urso",
+            "director": "Aaron Blaise, Robert Walker",
+            "year": 2003,
+            "genre": "Animação, Aventura",
+            "rating": 7.2,
+            "synopsis": "Um jovem índio americano chamado Kenai é transformado em um urso e deve aprender a ver o mundo de uma nova perspectiva.",
+            "cover": "./src/assets/irmaourso.jpg"
+        }
+    ]
+
+}
