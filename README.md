@@ -14,7 +14,7 @@ Filme cadastrados são exemplos e podem ser removidos se apagados no dir "data/d
 
 Para rodar o projeto em sua máquina graças ao .gitignore pode ser necessário que você execute a instalação dos pacotes utilizados na criação deste mini projeto.
 
-Siga esses passos para preparar a máquina:
+##Siga esses passos para preparar a máquina:
 
 Verifique se possui o Node.js em sua máquina(caso não possua, instale);
 
@@ -34,7 +34,7 @@ Aguarde a instalação dos elementos de json-server in node_modules;
 
 Apos isso sua máquina estará pronta para executar o projeto.
 
-Siga esses passos para executar o projeto:
+##Siga esses passos para executar o projeto:
 
 Abra um terminal integrado ao projeto;
 
