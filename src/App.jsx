@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
-import MovieForm from './componentes/MovieForm/MovieForm'
-import MovieList from './componentes/MovieList/MovieList'
+import MovieForm from './components/MovieForm/MovieForm'
+import MovieList from './components/MovieList/MovieList'
 import './App.css'
 
 const url ="http://localhost:3001/movie";

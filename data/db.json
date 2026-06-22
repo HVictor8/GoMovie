@@ -19,22 +19,13 @@
       "id": "GJrOUknwROg"
     },
     {
-      "title": "Friday the 13th - 1984",
-      "category": "Horror",
-      "year": "1984",
-      "note": "3.6",
-      "image": "https://br.web.img3.acsta.net/c_310_420/medias/nmedia/18/87/85/44/19962226.jpg",
-      "synopsis": "Os moradores dos arredores de Crystal Lake descobrem que Jason pode ainda estar vivo, quando nova série de violentos assassinatos começa a ocorrer.",
-      "id": "GTDGre_3GHY"
-    },
-    {
-      "title": "Ataque Brutal",
-      "category": "Suspense/Terror",
-      "year": "2026",
-      "note": "2.5",
-      "image": "https://br.web.img3.acsta.net/r_1920_1080/img/fd/78/fd789d6ba2c2dd26c084a2625385ecf9.jpg",
-      "synopsis": "Após um furacão catastrófico, os moradores de uma cidade lutam para sobreviver ao avanço das águas infestadas de tubarões vorazes.",
-      "id": "XxE9imoWGOg"
+      "title": "Homem aranha: No aranhaverso",
+      "category": "Animação",
+      "year": "2019",
+      "note": "5",
+      "image": "https://m.media-amazon.com/images/S/pv-target-images/cc0a514d8b4a4ff5ce9c894ba72e92b6f69707ca90c3b47329088414dbb07a21.jpg",
+      "synopsis": "Após ser atingido por uma teia radioativa, Miles Morales, um jovem negro do Brooklyn, se torna o Homem-Aranha, inspirado no legado do já falecido Peter Parker. Entretanto, ao visitar o túmulo de seu ídolo em uma noite chuvosa, ele é surpreendido com a presença do próprio Peter, vestindo o traje do herói por baixo de um sobretudo. A surpresa fica ainda maior quando Miles descobre que ele veio de uma dimensão paralela, assim como outras versões do Homem-Aranha.",
+      "id": "WYnOXUiYvqo"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
